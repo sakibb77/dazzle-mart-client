@@ -18,7 +18,7 @@ const buttonVariant = cva("px-6 py-3 rounded-xl duration-300", {
 
 interface ButtonProps extends VariantProps<typeof buttonVariant> {
   href: string;
-  target: string;
+  target?: string;
   placeholder: string;
 }
 

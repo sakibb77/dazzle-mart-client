@@ -8,7 +8,7 @@
 }
 
 .section-padding {
-  @apply py-10 md:py-20;
+  @apply py-8 md:py-14 lg:py-16;
 }
 
 /* link style  */
